@@ -23,3 +23,15 @@ var number1 = parseInt(prompt("Enter a number:"));
 var number2 = parseInt(prompt("Enter another number:"));
 var result = subtract(number1, number2);
 alert(result);
+
+/* code for gallon to liter conversion
+
+var GallontoLiter = function(gallon) {
+	return (gallon) * 3.78;
+};
+
+var gallon = parseInt(prompt("How many gallons?"));
+
+alert(GallontoLiter(gallon));
+
+*/
